@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import { unstable_scheduleWork } from "schedule";
+import { unstable_scheduleCallback } from "scheduler";
 import "./index.css";
 import App from "./App";
 import registerServiceWorker from "./registerServiceWorker";
 
 Component.prototype.deferSetState = function(...args) {
-  unstable_scheduleWork(() => {
+  unstable_scheduleCallback(() => {
     this.setState.apply(this, args);
   });
 };
