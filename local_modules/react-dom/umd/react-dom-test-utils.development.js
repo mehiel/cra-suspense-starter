@@ -179,11 +179,11 @@ var ReactSharedInternals = React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FI
 // The Symbol used to tag the ReactElement-like types. If there is no native Symbol
 // nor polyfill, then a plain number is used for performance.
 
-var FunctionalComponent = 0;
-var FunctionalComponentLazy = 1;
+var FunctionComponent = 0;
+var FunctionComponentLazy = 1;
 var ClassComponent = 2;
 var ClassComponentLazy = 3;
- // Before we know whether it is functional or class
+ // Before we know whether it is function or class
 var HostRoot = 5; // Root of a host tree. Could be nested inside another node.
  // A subtree. Could be an entry point to a different renderer.
 var HostComponent = 7;
@@ -931,7 +931,7 @@ function findAllInRenderedFiberTreeInternal(fiber, test) {
   var node = currentParent;
   var ret = [];
   while (true) {
-    if (node.tag === HostComponent || node.tag === HostText || node.tag === ClassComponent || node.tag === ClassComponentLazy || node.tag === FunctionalComponent || node.tag === FunctionalComponentLazy) {
+    if (node.tag === HostComponent || node.tag === HostText || node.tag === ClassComponent || node.tag === ClassComponentLazy || node.tag === FunctionComponent || node.tag === FunctionComponentLazy) {
       var publicInst = node.stateNode;
       if (test(publicInst)) {
         ret.push(publicInst);

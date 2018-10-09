@@ -4,16 +4,22 @@
   "private": true,
   "dependencies": {
     "react": "file:./local_modules/react",
-    "react-async-elements": "^0.4.0",
+    "react-async-elements": "file:./local_modules/react-async-elements",
     "react-dom": "file:./local_modules/react-dom",
-    "react-scripts": "1.1.5",
+    "react-scripts": "2.0.4",
     "scheduler": "file:./local_modules/scheduler",
-    "simple-cache-provider": "file:./local_modules/simple-cache-provider"
+    "react-cache": "file:./local_modules/react-cache"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

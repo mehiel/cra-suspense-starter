@@ -320,7 +320,7 @@ function hasDispatches(event) {
   return !!event._dispatchListeners;
 }
 
-// Before we know whether it is functional or class
+// Before we know whether it is function or class
  // Root of a host tree. Could be nested inside another node.
  // A subtree. Could be an entry point to a different renderer.
 var HostComponent = 7;

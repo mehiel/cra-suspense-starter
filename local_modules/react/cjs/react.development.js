@@ -73,9 +73,6 @@ var enableSuspense = true;
 // Warn about deprecated, async-unsafe lifecycles; relates to RFC #6:
 
 
-// Warn about legacy context API
-
-
 // Gather advanced timing metrics for Profiler subtrees.
 
 
@@ -1386,11 +1383,11 @@ function forwardRef(render) {
 function pure(render, compare) {
   {
     if (typeof render !== 'function') {
-      warningWithoutStack$1(false, 'pure: The first argument must be a functional component. Instead ' + 'received: %s', render === null ? 'null' : typeof render);
+      warningWithoutStack$1(false, 'pure: The first argument must be a function component. Instead ' + 'received: %s', render === null ? 'null' : typeof render);
     } else {
       var prototype = render.prototype;
       if (prototype && prototype.isReactComponent) {
-        warningWithoutStack$1(false, 'pure: The first argument must be a functional component. Classes ' + 'are not supported. Use React.PureComponent instead.');
+        warningWithoutStack$1(false, 'pure: The first argument must be a function component. Classes ' + 'are not supported. Use React.PureComponent instead.');
       }
     }
   }
@@ -1552,7 +1549,7 @@ function validatePropTypes(element) {
   var name = void 0,
       propTypes = void 0;
   if (typeof type === 'function') {
-    // Class or functional component
+    // Class or function component
     name = type.displayName || type.name;
     propTypes = type.propTypes;
   } else if (typeof type === 'object' && type !== null && type.$$typeof === REACT_FORWARD_REF_TYPE) {
