@@ -1,4 +1,4 @@
-import React, { Component, Placeholder } from "react";
+import React, { Component, unstable_Suspense as Suspense } from "react";
 import { Img } from "react-async-elements";
 import logo from "./logo.svg";
 import "./App.css";
@@ -6,7 +6,7 @@ import "./App.css";
 class App extends Component {
   render() {
     return (
-      <Placeholder delayMs={300} fallback={"Loading App..."}>
+      <Suspense maxDuration={300} fallback={"Loading App..."}>
         <div className="App">
           <header className="App-header">
             <Img src={logo} className="App-logo" alt="logo" />
@@ -16,7 +16,7 @@ class App extends Component {
             To get started, edit <code>src/App.js</code> and save to reload.
           </p>
         </div>
-      </Placeholder>
+      </Suspense>
     );
   }
 }

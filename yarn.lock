@@ -62,11 +62,11 @@
     source-map "^0.5.0"
     trim-right "^1.0.1"
 
-"@babel/generator@^7.0.0", "@babel/generator@^7.1.2":
-  version "7.1.2"
-  resolved "https://npm.logicea.net/@babel%2fgenerator/-/generator-7.1.2.tgz#fde75c072575ce7abbd97322e8fef5bae67e4630"
+"@babel/generator@^7.0.0", "@babel/generator@^7.1.2", "@babel/generator@^7.1.3":
+  version "7.1.3"
+  resolved "https://npm.logicea.net/@babel%2fgenerator/-/generator-7.1.3.tgz#2103ec9c42d9bdad9190a6ad5ff2d456fd7b8673"
   dependencies:
-    "@babel/types" "^7.1.2"
+    "@babel/types" "^7.1.3"
     jsesc "^2.5.1"
     lodash "^4.17.10"
     source-map "^0.5.0"
@@ -259,9 +259,9 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@babel/parser@^7.0.0", "@babel/parser@^7.1.0", "@babel/parser@^7.1.2":
-  version "7.1.2"
-  resolved "https://npm.logicea.net/@babel%2fparser/-/parser-7.1.2.tgz#85c5c47af6d244fab77bce6b9bd830e38c978409"
+"@babel/parser@^7.0.0", "@babel/parser@^7.1.0", "@babel/parser@^7.1.2", "@babel/parser@^7.1.3":
+  version "7.1.3"
+  resolved "https://npm.logicea.net/@babel%2fparser/-/parser-7.1.3.tgz#2c92469bac2b7fbff810b67fca07bd138b48af77"
 
 "@babel/plugin-proposal-async-generator-functions@^7.1.0":
   version "7.1.0"
@@ -412,8 +412,8 @@
     "@babel/helper-plugin-utils" "^7.0.0"
 
 "@babel/plugin-transform-destructuring@^7.0.0":
-  version "7.1.2"
-  resolved "https://npm.logicea.net/@babel%2fplugin-transform-destructuring/-/plugin-transform-destructuring-7.1.2.tgz#5fa77d473f5a0a3f5266ad7ce2e8c995a164d60a"
+  version "7.1.3"
+  resolved "https://npm.logicea.net/@babel%2fplugin-transform-destructuring/-/plugin-transform-destructuring-7.1.3.tgz#e69ff50ca01fac6cb72863c544e516c2b193012f"
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
@@ -480,8 +480,8 @@
     "@babel/helper-simple-access" "^7.1.0"
 
 "@babel/plugin-transform-modules-systemjs@^7.0.0":
-  version "7.0.0"
-  resolved "https://npm.logicea.net/@babel%2fplugin-transform-modules-systemjs/-/plugin-transform-modules-systemjs-7.0.0.tgz#8873d876d4fee23209decc4d1feab8f198cf2df4"
+  version "7.1.3"
+  resolved "https://npm.logicea.net/@babel%2fplugin-transform-modules-systemjs/-/plugin-transform-modules-systemjs-7.1.3.tgz#2119a3e3db612fd74a19d88652efbfe9613a5db0"
   dependencies:
     "@babel/helper-hoist-variables" "^7.0.0"
     "@babel/helper-plugin-utils" "^7.0.0"
@@ -699,15 +699,15 @@
     lodash "^4.2.0"
 
 "@babel/traverse@^7.0.0", "@babel/traverse@^7.1.0":
-  version "7.1.0"
-  resolved "https://npm.logicea.net/@babel%2ftraverse/-/traverse-7.1.0.tgz#503ec6669387efd182c3888c4eec07bcc45d91b2"
+  version "7.1.4"
+  resolved "https://npm.logicea.net/@babel%2ftraverse/-/traverse-7.1.4.tgz#f4f83b93d649b4b2c91121a9087fa2fa949ec2b4"
   dependencies:
     "@babel/code-frame" "^7.0.0"
-    "@babel/generator" "^7.0.0"
+    "@babel/generator" "^7.1.3"
     "@babel/helper-function-name" "^7.1.0"
     "@babel/helper-split-export-declaration" "^7.0.0"
-    "@babel/parser" "^7.1.0"
-    "@babel/types" "^7.0.0"
+    "@babel/parser" "^7.1.3"
+    "@babel/types" "^7.1.3"
     debug "^3.1.0"
     globals "^11.1.0"
     lodash "^4.17.10"
@@ -720,9 +720,9 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
-"@babel/types@^7.0.0", "@babel/types@^7.1.2":
-  version "7.1.2"
-  resolved "https://npm.logicea.net/@babel%2ftypes/-/types-7.1.2.tgz#183e7952cf6691628afdc2e2b90d03240bac80c0"
+"@babel/types@^7.0.0", "@babel/types@^7.1.2", "@babel/types@^7.1.3":
+  version "7.1.3"
+  resolved "https://npm.logicea.net/@babel%2ftypes/-/types-7.1.3.tgz#3a767004567060c2f40fca49a304712c525ee37d"
   dependencies:
     esutils "^2.0.2"
     lodash "^4.17.10"
@@ -1114,7 +1114,7 @@ arrify@^1.0.0, arrify@^1.0.1:
   version "1.0.1"
   resolved "https://npm.logicea.net/arrify/-/arrify-1.0.1.tgz#898508da2226f380df904728456849c1501a4b0d"
 
-asap@~2.0.6:
+asap@~2.0.3, asap@~2.0.6:
   version "2.0.6"
   resolved "https://npm.logicea.net/asap/-/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
 
@@ -1500,20 +1500,20 @@ bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.4.0:
   version "4.11.8"
   resolved "https://npm.logicea.net/bn.js/-/bn.js-4.11.8.tgz#2cde09eb5ee341f484746bb0309b3253b1b1442f"
 
-body-parser@1.18.2:
-  version "1.18.2"
-  resolved "https://npm.logicea.net/body-parser/-/body-parser-1.18.2.tgz#87678a19d84b47d859b83199bd59bce222b10454"
+body-parser@1.18.3:
+  version "1.18.3"
+  resolved "https://npm.logicea.net/body-parser/-/body-parser-1.18.3.tgz#5b292198ffdd553b3a0f20ded0592b956955c8b4"
   dependencies:
     bytes "3.0.0"
     content-type "~1.0.4"
     debug "2.6.9"
-    depd "~1.1.1"
-    http-errors "~1.6.2"
-    iconv-lite "0.4.19"
+    depd "~1.1.2"
+    http-errors "~1.6.3"
+    iconv-lite "0.4.23"
     on-finished "~2.3.0"
-    qs "6.5.1"
-    raw-body "2.3.2"
-    type-is "~1.6.15"
+    qs "6.5.2"
+    raw-body "2.3.3"
+    type-is "~1.6.16"
 
 bonjour@^3.5.0:
   version "3.5.0"
@@ -2097,6 +2097,10 @@ core-js@2.5.7, core-js@^2.4.0, core-js@^2.5.0:
   version "2.5.7"
   resolved "https://npm.logicea.net/core-js/-/core-js-2.5.7.tgz#f972608ff0cead68b841a16a932d0b183791814e"
 
+core-js@^1.0.0:
+  version "1.2.7"
+  resolved "https://npm.logicea.net/core-js/-/core-js-1.2.7.tgz#652294c14651db28fa93bd2d5ff2983a4f08c636"
+
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://npm.logicea.net/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
@@ -2393,8 +2397,8 @@ debug@=3.1.0:
     ms "2.0.0"
 
 debug@^3.1.0:
-  version "3.2.5"
-  resolved "https://npm.logicea.net/debug/-/debug-3.2.5.tgz#c2418fbfd7a29f4d4f70ff4cea604d4b64c46407"
+  version "3.2.6"
+  resolved "https://npm.logicea.net/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
   dependencies:
     ms "^2.1.1"
 
@@ -2493,11 +2497,7 @@ delegates@^1.0.0:
   version "1.0.0"
   resolved "https://npm.logicea.net/delegates/-/delegates-1.0.0.tgz#84c6e159b81904fdca59a0ef44cd870d31250f9a"
 
-depd@1.1.1:
-  version "1.1.1"
-  resolved "https://npm.logicea.net/depd/-/depd-1.1.1.tgz#5783b4e1c459f06fa5ca27f991f3d06e7a310359"
-
-depd@~1.1.1, depd@~1.1.2:
+depd@~1.1.2:
   version "1.1.2"
   resolved "https://npm.logicea.net/depd/-/depd-1.1.2.tgz#9bcd52e14c097763e749b274c4346ed2e560b5a9"
 
@@ -2675,8 +2675,8 @@ ee-first@1.1.1:
   resolved "https://npm.logicea.net/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
 
 electron-to-chromium@^1.3.62, electron-to-chromium@^1.3.73:
-  version "1.3.75"
-  resolved "https://npm.logicea.net/electron-to-chromium/-/electron-to-chromium-1.3.75.tgz#dd04551739e7371862b0ac7f4ddaa9f3f95b7e68"
+  version "1.3.78"
+  resolved "https://npm.logicea.net/electron-to-chromium/-/electron-to-chromium-1.3.78.tgz#ecb72b5b166ba6598efb384461d63cad74678ebf"
 
 elliptic@^6.0.0:
   version "6.4.1"
@@ -2701,6 +2701,12 @@ emojis-list@^2.0.0:
 encodeurl@~1.0.2:
   version "1.0.2"
   resolved "https://npm.logicea.net/encodeurl/-/encodeurl-1.0.2.tgz#ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59"
+
+encoding@^0.1.11:
+  version "0.1.12"
+  resolved "https://npm.logicea.net/encoding/-/encoding-0.1.12.tgz#538b66f3ee62cd1ab51ec323829d1f9480c74beb"
+  dependencies:
+    iconv-lite "~0.4.13"
 
 end-of-stream@^1.0.0, end-of-stream@^1.1.0:
   version "1.4.1"
@@ -3044,12 +3050,12 @@ expect@^23.6.0:
     jest-regex-util "^23.3.0"
 
 express@^4.16.2:
-  version "4.16.3"
-  resolved "https://npm.logicea.net/express/-/express-4.16.3.tgz#6af8a502350db3246ecc4becf6b5a34d22f7ed53"
+  version "4.16.4"
+  resolved "https://npm.logicea.net/express/-/express-4.16.4.tgz#fddef61926109e24c515ea97fd2f1bdbf62df12e"
   dependencies:
     accepts "~1.3.5"
     array-flatten "1.1.1"
-    body-parser "1.18.2"
+    body-parser "1.18.3"
     content-disposition "0.5.2"
     content-type "~1.0.4"
     cookie "0.3.1"
@@ -3066,10 +3072,10 @@ express@^4.16.2:
     on-finished "~2.3.0"
     parseurl "~1.3.2"
     path-to-regexp "0.1.7"
-    proxy-addr "~2.0.3"
-    qs "6.5.1"
+    proxy-addr "~2.0.4"
+    qs "6.5.2"
     range-parser "~1.2.0"
-    safe-buffer "5.1.1"
+    safe-buffer "5.1.2"
     send "0.16.2"
     serve-static "1.13.2"
     setprototypeof "1.1.0"
@@ -3167,6 +3173,18 @@ fb-watchman@^2.0.0:
   resolved "https://npm.logicea.net/fb-watchman/-/fb-watchman-2.0.0.tgz#54e9abf7dfa2f26cd9b1636c588c1afc05de5d58"
   dependencies:
     bser "^2.0.0"
+
+fbjs@^0.8.16:
+  version "0.8.17"
+  resolved "https://npm.logicea.net/fbjs/-/fbjs-0.8.17.tgz#c4d598ead6949112653d6588b01a5cdcd9f90fdd"
+  dependencies:
+    core-js "^1.0.0"
+    isomorphic-fetch "^2.1.1"
+    loose-envify "^1.0.0"
+    object-assign "^4.1.0"
+    promise "^7.1.1"
+    setimmediate "^1.0.5"
+    ua-parser-js "^0.7.18"
 
 figgy-pudding@^3.1.0, figgy-pudding@^3.5.1:
   version "3.5.1"
@@ -3732,8 +3750,8 @@ hsla-regex@^1.0.0:
   resolved "https://npm.logicea.net/hsla-regex/-/hsla-regex-1.0.0.tgz#c1ce7a3168c8c6614033a4b5f7877f3b225f9c38"
 
 html-comment-regex@^1.1.0:
-  version "1.1.1"
-  resolved "https://npm.logicea.net/html-comment-regex/-/html-comment-regex-1.1.1.tgz#668b93776eaae55ebde8f3ad464b307a4963625e"
+  version "1.1.2"
+  resolved "https://npm.logicea.net/html-comment-regex/-/html-comment-regex-1.1.2.tgz#97d4688aeb5c81886a364faa0cad1dda14d433a7"
 
 html-encoding-sniffer@^1.0.2:
   version "1.0.2"
@@ -3782,16 +3800,7 @@ http-deceiver@^1.2.7:
   version "1.2.7"
   resolved "https://npm.logicea.net/http-deceiver/-/http-deceiver-1.2.7.tgz#fa7168944ab9a519d337cb0bec7284dc3e723d87"
 
-http-errors@1.6.2:
-  version "1.6.2"
-  resolved "https://npm.logicea.net/http-errors/-/http-errors-1.6.2.tgz#0a002cc85707192a7e7946ceedc11155f60ec736"
-  dependencies:
-    depd "1.1.1"
-    inherits "2.0.3"
-    setprototypeof "1.0.3"
-    statuses ">= 1.3.1 < 2"
-
-http-errors@~1.6.2:
+http-errors@1.6.3, http-errors@~1.6.2, http-errors@~1.6.3:
   version "1.6.3"
   resolved "https://npm.logicea.net/http-errors/-/http-errors-1.6.3.tgz#8b55680bb4be283a0b5bf4ea2e38580be1d9320d"
   dependencies:
@@ -3833,11 +3842,13 @@ https-browserify@^1.0.0:
   version "1.0.0"
   resolved "https://npm.logicea.net/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
 
-iconv-lite@0.4.19:
-  version "0.4.19"
-  resolved "https://npm.logicea.net/iconv-lite/-/iconv-lite-0.4.19.tgz#f7468f60135f5e5dad3399c0a81be9a1603a082b"
+iconv-lite@0.4.23:
+  version "0.4.23"
+  resolved "https://npm.logicea.net/iconv-lite/-/iconv-lite-0.4.23.tgz#297871f63be507adcfbfca715d0cd0eed84e9a63"
+  dependencies:
+    safer-buffer ">= 2.1.2 < 3"
 
-iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@^0.4.4:
+iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@^0.4.4, iconv-lite@~0.4.13:
   version "0.4.24"
   resolved "https://npm.logicea.net/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
   dependencies:
@@ -4224,7 +4235,7 @@ is-root@2.0.0:
   version "2.0.0"
   resolved "https://npm.logicea.net/is-root/-/is-root-2.0.0.tgz#838d1e82318144e5a6f77819d90207645acc7019"
 
-is-stream@^1.1.0:
+is-stream@^1.0.1, is-stream@^1.1.0:
   version "1.1.0"
   resolved "https://npm.logicea.net/is-stream/-/is-stream-1.1.0.tgz#12d4a3dd4e68e0b79ceb8dbc84173ae80d91ca44"
 
@@ -4283,6 +4294,13 @@ isobject@^2.0.0:
 isobject@^3.0.0, isobject@^3.0.1:
   version "3.0.1"
   resolved "https://npm.logicea.net/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
+
+isomorphic-fetch@^2.1.1:
+  version "2.2.1"
+  resolved "https://npm.logicea.net/isomorphic-fetch/-/isomorphic-fetch-2.2.1.tgz#611ae1acf14f5e81f729507472819fe9733558a9"
+  dependencies:
+    node-fetch "^1.0.1"
+    whatwg-fetch ">=0.10.0"
 
 isstream@~0.1.2:
   version "0.1.2"
@@ -5212,8 +5230,8 @@ minipass@^2.2.1, minipass@^2.3.3:
     yallist "^3.0.0"
 
 minizlib@^1.1.0:
-  version "1.1.0"
-  resolved "https://npm.logicea.net/minizlib/-/minizlib-1.1.0.tgz#11e13658ce46bc3a70a267aac58359d1e0c29ceb"
+  version "1.1.1"
+  resolved "https://npm.logicea.net/minizlib/-/minizlib-1.1.1.tgz#6734acc045a46e61d596a43bb9d9cd326e19cc42"
   dependencies:
     minipass "^2.2.1"
 
@@ -5350,6 +5368,13 @@ no-case@^2.2.0:
   resolved "https://npm.logicea.net/no-case/-/no-case-2.3.2.tgz#60b813396be39b3f1288a4c1ed5d1e7d28b464ac"
   dependencies:
     lower-case "^1.1.1"
+
+node-fetch@^1.0.1:
+  version "1.7.3"
+  resolved "https://npm.logicea.net/node-fetch/-/node-fetch-1.7.3.tgz#980f6f72d85211a5347c6b2bc18c5b84c3eb47ef"
+  dependencies:
+    encoding "^0.1.11"
+    is-stream "^1.0.1"
 
 node-forge@0.7.5:
   version "0.7.5"
@@ -5961,10 +5986,10 @@ postcss-convert-values@^4.0.1:
     postcss-value-parser "^3.0.0"
 
 postcss-custom-media@^7.0.4:
-  version "7.0.4"
-  resolved "https://npm.logicea.net/postcss-custom-media/-/postcss-custom-media-7.0.4.tgz#98e593c4a9a38fefee848434131fa16d316ee165"
+  version "7.0.5"
+  resolved "https://npm.logicea.net/postcss-custom-media/-/postcss-custom-media-7.0.5.tgz#be16a0838ab145dd06eab0703022467b2677e68c"
   dependencies:
-    postcss "^7.0.2"
+    postcss "^7.0.5"
 
 postcss-custom-properties@^8.0.5:
   version "8.0.8"
@@ -6500,6 +6525,12 @@ promise@8.0.2:
   dependencies:
     asap "~2.0.6"
 
+promise@^7.1.1:
+  version "7.3.1"
+  resolved "https://npm.logicea.net/promise/-/promise-7.3.1.tgz#064b72602b18f90f29192b8b1bc418ffd1ebd3bf"
+  dependencies:
+    asap "~2.0.3"
+
 prompts@^0.1.9:
   version "0.1.14"
   resolved "https://npm.logicea.net/prompts/-/prompts-0.1.14.tgz#a8e15c612c5c9ec8f8111847df3337c9cbd443b2"
@@ -6514,7 +6545,7 @@ prop-types@^15.6.2:
     loose-envify "^1.3.1"
     object-assign "^4.1.1"
 
-proxy-addr@~2.0.3:
+proxy-addr@~2.0.4:
   version "2.0.4"
   resolved "https://npm.logicea.net/proxy-addr/-/proxy-addr-2.0.4.tgz#ecfc733bf22ff8c6f407fa275327b9ab67e48b93"
   dependencies:
@@ -6582,11 +6613,7 @@ q@^1.1.2:
   version "1.5.1"
   resolved "https://npm.logicea.net/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
 
-qs@6.5.1:
-  version "6.5.1"
-  resolved "https://npm.logicea.net/qs/-/qs-6.5.1.tgz#349cdf6eef89ec45c12d7d5eb3fc0c870343a6d8"
-
-qs@~6.5.2:
+qs@6.5.2, qs@~6.5.2:
   version "6.5.2"
   resolved "https://npm.logicea.net/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
 
@@ -6599,8 +6626,8 @@ querystring@0.2.0:
   resolved "https://npm.logicea.net/querystring/-/querystring-0.2.0.tgz#b209849203bb25df820da756e747005878521620"
 
 querystringify@^2.0.0:
-  version "2.0.0"
-  resolved "https://npm.logicea.net/querystringify/-/querystringify-2.0.0.tgz#fa3ed6e68eb15159457c89b37bc6472833195755"
+  version "2.1.0"
+  resolved "https://npm.logicea.net/querystringify/-/querystringify-2.1.0.tgz#7ded8dfbf7879dcc60d0a644ac6754b283ad17ef"
 
 raf@3.4.0:
   version "3.4.0"
@@ -6633,13 +6660,13 @@ range-parser@^1.0.3, range-parser@~1.2.0:
   version "1.2.0"
   resolved "https://npm.logicea.net/range-parser/-/range-parser-1.2.0.tgz#f49be6b487894ddc40dcc94a322f611092e00d5e"
 
-raw-body@2.3.2:
-  version "2.3.2"
-  resolved "https://npm.logicea.net/raw-body/-/raw-body-2.3.2.tgz#bcd60c77d3eb93cde0050295c3f379389bc88f89"
+raw-body@2.3.3:
+  version "2.3.3"
+  resolved "https://npm.logicea.net/raw-body/-/raw-body-2.3.3.tgz#1b324ece6b5706e153855bc1148c65bb7f6ea0c3"
   dependencies:
     bytes "3.0.0"
-    http-errors "1.6.2"
-    iconv-lite "0.4.19"
+    http-errors "1.6.3"
+    iconv-lite "0.4.23"
     unpipe "1.0.0"
 
 rc@^1.2.7:
@@ -6661,11 +6688,11 @@ react-app-polyfill@^0.1.3:
     raf "3.4.0"
     whatwg-fetch "3.0.0"
 
-"react-async-elements@file:./local_modules/react-async-elements":
+react-async-elements@^0.4.0:
   version "0.4.0"
-
-"react-cache@file:./local_modules/react-cache":
-  version "2.0.0-alpha.0"
+  resolved "https://npm.logicea.net/react-async-elements/-/react-async-elements-0.4.0.tgz#189fd8076a7bd0335e3fba74adae6d3a8f93ca53"
+  dependencies:
+    simple-cache-provider "^0.7.0"
 
 react-dev-utils@^6.0.4:
   version "6.0.4"
@@ -6694,19 +6721,20 @@ react-dev-utils@^6.0.4:
     strip-ansi "4.0.0"
     text-table "0.2.0"
 
-"react-dom@file:./local_modules/react-dom":
-  version "16.5.2"
+react-dom@16.6.0-alpha.8af6728:
+  version "16.6.0-alpha.8af6728"
+  resolved "https://npm.logicea.net/react-dom/-/react-dom-16.6.0-alpha.8af6728.tgz#0bc2020dcf0a594fe06e41379a9346d1982f587b"
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    scheduler "^0.9.0"
+    scheduler "^0.10.0-alpha.8af6728"
 
 react-error-overlay@^5.0.4:
   version "5.0.4"
   resolved "https://npm.logicea.net/react-error-overlay/-/react-error-overlay-5.0.4.tgz#39cf184d770f98b65a2ee59a779d03b8d092b69e"
 
-react-scripts@2.0.4:
+react-scripts@^2.0.4:
   version "2.0.4"
   resolved "https://npm.logicea.net/react-scripts/-/react-scripts-2.0.4.tgz#244a69abbf5630a80ad81349a6d0d56d91583c6c"
   dependencies:
@@ -6759,13 +6787,14 @@ react-scripts@2.0.4:
   optionalDependencies:
     fsevents "1.2.4"
 
-"react@file:./local_modules/react":
-  version "16.5.2"
+react@16.6.0-alpha.8af6728:
+  version "16.6.0-alpha.8af6728"
+  resolved "https://npm.logicea.net/react/-/react-16.6.0-alpha.8af6728.tgz#b97b6453c252a1f6ad185acc81aca1485cd3e120"
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    scheduler "^0.9.0"
+    scheduler "^0.10.0-alpha.8af6728"
 
 read-pkg-up@^1.0.1:
   version "1.0.1"
@@ -7108,10 +7137,6 @@ rxjs@^6.1.0:
   dependencies:
     tslib "^1.9.0"
 
-safe-buffer@5.1.1:
-  version "5.1.1"
-  resolved "https://npm.logicea.net/safe-buffer/-/safe-buffer-5.1.1.tgz#893312af69b2123def71f57889001671eeb2c853"
-
 safe-buffer@5.1.2, safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.1, safe-buffer@^5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
   resolved "https://npm.logicea.net/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
@@ -7162,16 +7187,17 @@ saxes@^3.1.3:
   dependencies:
     xmlchars "^1.3.1"
 
+scheduler@^0.10.0-alpha.8af6728:
+  version "0.10.0-alpha.f47a958"
+  resolved "https://npm.logicea.net/scheduler/-/scheduler-0.10.0-alpha.f47a958.tgz#0063a5c21aad2038111c316e417e9702d1ca7007"
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+
 scheduler@^0.9.0:
   version "0.9.0"
   resolved "https://npm.logicea.net/scheduler/-/scheduler-0.9.0.tgz#845e04b79cc710e6c837181ae5d77087b9d068a7"
   dependencies:
-    object-assign "^4.1.1"
-
-"scheduler@file:./local_modules/scheduler":
-  version "0.9.0"
-  dependencies:
-    loose-envify "^1.1.0"
     object-assign "^4.1.1"
 
 schema-utils@^0.4.4, schema-utils@^0.4.5:
@@ -7194,14 +7220,14 @@ select-hose@^2.0.0:
   resolved "https://npm.logicea.net/select-hose/-/select-hose-2.0.0.tgz#625d8658f865af43ec962bfc376a37359a4994ca"
 
 selfsigned@^1.9.1:
-  version "1.10.3"
-  resolved "https://npm.logicea.net/selfsigned/-/selfsigned-1.10.3.tgz#d628ecf9e3735f84e8bafba936b3cf85bea43823"
+  version "1.10.4"
+  resolved "https://npm.logicea.net/selfsigned/-/selfsigned-1.10.4.tgz#cdd7eccfca4ed7635d47a08bf2d5d3074092e2cd"
   dependencies:
     node-forge "0.7.5"
 
 "semver@2 || 3 || 4 || 5", semver@^5.3.0, semver@^5.4.1, semver@^5.5.0, semver@^5.5.1:
-  version "5.5.1"
-  resolved "https://npm.logicea.net/semver/-/semver-5.5.1.tgz#7dfdd8814bdb7cabc7be0fb1d734cfb66c940477"
+  version "5.6.0"
+  resolved "https://npm.logicea.net/semver/-/semver-5.6.0.tgz#7e74256fbaa49c75aa7c7a205cc22799cac80004"
 
 send@0.16.2:
   version "0.16.2"
@@ -7268,13 +7294,9 @@ set-value@^2.0.0:
     is-plain-object "^2.0.3"
     split-string "^3.0.1"
 
-setimmediate@^1.0.4:
+setimmediate@^1.0.4, setimmediate@^1.0.5:
   version "1.0.5"
   resolved "https://npm.logicea.net/setimmediate/-/setimmediate-1.0.5.tgz#290cbb232e306942d7d7ea9b83732ab7856f8285"
-
-setprototypeof@1.0.3:
-  version "1.0.3"
-  resolved "https://npm.logicea.net/setprototypeof/-/setprototypeof-1.0.3.tgz#66567e37043eeb4f04d91bd658c0cbefb55b8e04"
 
 setprototypeof@1.1.0:
   version "1.1.0"
@@ -7330,6 +7352,16 @@ shellwords@^0.1.1:
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
   resolved "https://npm.logicea.net/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
+
+simple-cache-provider@^0.10.0:
+  version "0.10.0"
+  resolved "https://npm.logicea.net/simple-cache-provider/-/simple-cache-provider-0.10.0.tgz#09054a18ea78bb352bc3408a8833a9fe478d40a1"
+
+simple-cache-provider@^0.7.0:
+  version "0.7.0"
+  resolved "https://npm.logicea.net/simple-cache-provider/-/simple-cache-provider-0.7.0.tgz#2b69a799782f983d56e3a091a36a8a17245d0103"
+  dependencies:
+    fbjs "^0.8.16"
 
 simple-swizzle@^0.2.2:
   version "0.2.2"
@@ -7397,8 +7429,8 @@ sockjs@0.3.19:
     uuid "^3.0.1"
 
 source-list-map@^2.0.0:
-  version "2.0.0"
-  resolved "https://npm.logicea.net/source-list-map/-/source-list-map-2.0.0.tgz#aaa47403f7b245a92fbc97ea08f250d6087ed085"
+  version "2.0.1"
+  resolved "https://npm.logicea.net/source-list-map/-/source-list-map-2.0.1.tgz#3993bd873bfc48479cca9ea3a547835c7c154b34"
 
 source-map-resolve@^0.5.0:
   version "0.5.2"
@@ -7491,18 +7523,17 @@ sprintf-js@~1.0.2:
   resolved "https://npm.logicea.net/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
 
 sshpk@^1.7.0:
-  version "1.14.2"
-  resolved "https://npm.logicea.net/sshpk/-/sshpk-1.14.2.tgz#c6fc61648a3d9c4e764fd3fcdf4ea105e492ba98"
+  version "1.15.1"
+  resolved "https://npm.logicea.net/sshpk/-/sshpk-1.15.1.tgz#b79a089a732e346c6e0714830f36285cd38191a2"
   dependencies:
     asn1 "~0.2.3"
     assert-plus "^1.0.0"
-    dashdash "^1.12.0"
-    getpass "^0.1.1"
-    safer-buffer "^2.0.2"
-  optionalDependencies:
     bcrypt-pbkdf "^1.0.0"
+    dashdash "^1.12.0"
     ecc-jsbn "~0.1.1"
+    getpass "^0.1.1"
     jsbn "~0.1.0"
+    safer-buffer "^2.0.2"
     tweetnacl "~0.14.0"
 
 ssri@^5.2.4:
@@ -7532,7 +7563,7 @@ static-extend@^0.1.1:
     define-property "^0.2.5"
     object-copy "^0.1.0"
 
-"statuses@>= 1.3.1 < 2", "statuses@>= 1.4.0 < 2":
+"statuses@>= 1.4.0 < 2":
   version "1.5.0"
   resolved "https://npm.logicea.net/statuses/-/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
 
@@ -7889,7 +7920,7 @@ type-check@~0.3.2:
   dependencies:
     prelude-ls "~1.1.2"
 
-type-is@~1.6.15, type-is@~1.6.16:
+type-is@~1.6.16:
   version "1.6.16"
   resolved "https://npm.logicea.net/type-is/-/type-is-1.6.16.tgz#f89ce341541c672b25ee7ae3c73dee3b2be50194"
   dependencies:
@@ -7899,6 +7930,10 @@ type-is@~1.6.15, type-is@~1.6.16:
 typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://npm.logicea.net/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
+
+ua-parser-js@^0.7.18:
+  version "0.7.18"
+  resolved "https://npm.logicea.net/ua-parser-js/-/ua-parser-js-0.7.18.tgz#a7bfd92f56edfb117083b69e31d2aa8882d4b1ed"
 
 uglify-es@^3.3.4:
   version "3.3.9"
@@ -8249,7 +8284,7 @@ whatwg-encoding@^1.0.1, whatwg-encoding@^1.0.3, whatwg-encoding@^1.0.5:
   dependencies:
     iconv-lite "0.4.24"
 
-whatwg-fetch@3.0.0:
+whatwg-fetch@3.0.0, whatwg-fetch@>=0.10.0:
   version "3.0.0"
   resolved "https://npm.logicea.net/whatwg-fetch/-/whatwg-fetch-3.0.0.tgz#fc804e458cc460009b1a2b966bc8817d2578aefb"
 

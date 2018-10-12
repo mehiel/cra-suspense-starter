@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-It uses a custom build of react with the suspense flag enabled.
+It uses the canary (v16.6.0-alpha.8af6728) build of react that provides Suspense by default.
 
 *DISCLAIMER*: Should only be used as a playground for new ReactJS features that are NOT yet published under a stable release.
 
