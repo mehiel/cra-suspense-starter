@@ -1,14 +1,14 @@
 {
   "name": "cra-suspense-starter",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "react": "16.6.0-alpha.8af6728",
     "react-async-elements": "^0.4.0",
+    "react-cache": "^16.6.0-alpha.8af6728",
     "react-dom": "16.6.0-alpha.8af6728",
     "react-scripts": "^2.0.4",
-    "scheduler": "^0.9.0",
-    "simple-cache-provider": "^0.10.0"
+    "scheduler": "^0.9.0"
   },
   "scripts": {
     "start": "react-scripts start",
